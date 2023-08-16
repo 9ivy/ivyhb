@@ -151,7 +151,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         ScrollBar = Color3.fromRGB(149, 149, 149),
         NotiBackground = Color3.fromRGB(0, 0, 0),
         Glow = Color3.fromRGB(79, 195, 247),
-        Logo = "rbxassetid://14445651728"
+        Logo = "rbxassetid://14427470757"
     }
 
     table.insert(CFAHub, title)
@@ -581,7 +581,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
     Title.Size = UDim2.new(0, 625, 0, 29)
     Title.ZIndex = 2
     Title.Font = Enum.Font.SourceSansSemibold
-    Title.Text = title .. " - " .. gameName
+    Title.Text = title .. " | " .. gameName
     Title.RichText = true
     Title.TextColor3 = themes.TextColor
     Objects[Title] = "TextColor"
